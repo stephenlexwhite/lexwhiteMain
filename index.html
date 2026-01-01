@@ -44,6 +44,16 @@
             display: inline-block;
         }
 
+        .tagline {
+            display: block;
+            margin-top: 15px;
+            font-size: 1.2rem;
+            color: var(--accent-silver);
+            font-style: italic;
+            font-family: "Georgia", serif;
+            letter-spacing: 0.5px;
+        }
+
         .divider {
             width: 60%;
             height: 1px;
@@ -115,9 +125,8 @@
 
         .disclaimer-box {
             text-align: center;
-            margin: 40px auto;
+            margin-top: 40px;
             padding: 25px;
-            max-width: 800px;
             background-color: #ffffff;
             border-radius: 8px;
             border-left: 4px solid var(--accent-silver);
@@ -126,42 +135,12 @@
             box-shadow: 0 2px 4px rgba(0,0,0,0.05);
         }
 
-        /* Contact Section */
-        .contact-section {
-            text-align: center;
-            padding: 60px 20px;
-            background-color: #ffffff;
-            border-top: 1px solid var(--border-light);
-        }
-
-        .contact-section h2 {
-            color: var(--primary-navy);
-            margin-bottom: 20px;
-            text-transform: uppercase;
-        }
-
-        .email-link {
-            display: inline-block;
-            font-size: 1.25rem;
-            color: var(--primary-navy);
-            text-decoration: none;
-            font-weight: bold;
-            border: 2px solid var(--primary-navy);
-            padding: 12px 30px;
-            border-radius: 50px;
-            transition: all 0.3s ease;
-        }
-
-        .email-link:hover {
-            background-color: var(--primary-navy);
-            color: #ffffff;
-        }
-
         footer {
             background-color: #0f172a;
             color: #f1f5f9;
             text-align: center;
             padding: 40px 20px;
+            margin-top: 60px;
         }
 
         strong {
@@ -179,6 +158,7 @@
         <h1 class="firm-name">Lex White Law Firm</h1>
         <div class="logo-container">
             <img src="lexwhite-logo.png" alt="Lex White Law Firm Official Logo" onerror="this.alt='Logo File lexwhite-logo.png missing';">
+            <span class="tagline">"Your Legal Humsafar in Challenging Times"</span>
         </div>
         <div class="divider"></div>
     </header>
@@ -265,13 +245,8 @@
         <div class="disclaimer-box">
             <p>"Certain services are delivered in collaboration with our network of legal and technical specialists."</p>
         </div>
-    </main>
 
-    <section class="contact-section">
-        <h2>Contact Us</h2>
-        <p style="margin-bottom: 25px;">For inquiries or to schedule a consultation, please reach out via email:</p>
-        <a href="mailto:stephen@lexwhite.in" class="email-link">stephen@lexwhite.in</a>
-    </section>
+    </main>
 
     <footer>
         <p>&copy; 2026 Lex White Law Firm. Dedicated to Professional Integrity.</p>
